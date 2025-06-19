@@ -1,0 +1,76 @@
+body {
+    background-image: url('data/gif/magic.gr');
+    
+}
+.imgikwely {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-radius: 0px;
+    box-shadow: 0px 5px 5px black;
+}
+.home {
+    background-color: transparent;
+    width: 100%;
+    height: 790px;
+}
+.information p, input {
+    margin-left: 10%;
+}
+.button {
+    padding: 10px 20px;
+    font-size: 12px;
+    background: #db4343;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: not-allowed;
+    margin-bottom: 5%;
+}
+.button.active {
+    background: #4CAF50;
+    cursor: pointer;
+    color: white;
+}
+.information {
+    background-color: rgba(252, 214, 0, 0.274);
+    border: solid;
+    border-color: azure;
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    color: white;
+}
+.part {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 2%;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 5px black;
+}
+.btnpart {
+    border-color: transparent;
+    border-radius: 5px;
+}
+.btnpart:active {
+    background-color: aqua;
+    animation: rotating 4s linear infinite;
+}
+@keyframes rotating {
+    to {
+        transform: rotate(1turn);
+    }
+}
+m {
+    color: rgb(134, 132, 132);
+    border-top: solid;
+    border-color: rgb(156, 156, 156);
+}
+b {
+    color: white;
+}
